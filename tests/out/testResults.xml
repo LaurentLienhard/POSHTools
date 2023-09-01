@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-results xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nunit_schema_2.5.xsd" name="Pester" total="43" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="2" invalid="0" date="2023-07-13" time="13:57:55">
+  <environment clr-version="Unknown" machine-name="COPHGL99GW9C3" nunit-version="2.5.8.0" user-domain="FM" cwd="C:\01-DEV\POSHTools\tests" user="llienhard" os-version="10.0.22621" platform="Microsoft Windows 11 Pro|C:\WINDOWS|\Device\Harddisk0\Partition3" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="TestFixture" name="Pester" executed="True" result="Ignored" success="True" time="5.3092" asserts="0" description="Pester">
+    <results>
+      <test-suite type="TestFixture" name="C:\01-DEV\POSHTools\tests\Help.tests.ps1" executed="True" result="Success" success="True" time="2.8131" asserts="0" description="C:\01-DEV\POSHTools\tests\Help.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Test help for Get-ADUserLockoutReason" executed="True" result="Success" success="True" time="1.1887" asserts="0" description="Test help for Get-ADUserLockoutReason">
+            <results>
+              <test-suite type="TestFixture" name="Test help for Get-ADUserLockoutReason.Parameter Computer" executed="True" result="Success" success="True" time="0.4869" asserts="0" description="Test help for Get-ADUserLockoutReason.Parameter Computer">
+                <results>
+                  <test-case description="Has description" name="Test help for Get-ADUserLockoutReason.Parameter Computer.Has description" time="0.022" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-ADUserLockoutReason.Parameter Computer.Has correct [mandatory] value" time="0.0355" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-ADUserLockoutReason.Parameter Computer.Has correct parameter type" time="0.0104" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Test help for Get-ADUserLockoutReason.Parameter EndTime" executed="True" result="Success" success="True" time="0.667" asserts="0" description="Test help for Get-ADUserLockoutReason.Parameter EndTime">
+                <results>
+                  <test-case description="Has description" name="Test help for Get-ADUserLockoutReason.Parameter EndTime.Has description" time="0.0059" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-ADUserLockoutReason.Parameter EndTime.Has correct [mandatory] value" time="0.0046" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-ADUserLockoutReason.Parameter EndTime.Has correct parameter type" time="0.0059" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Test help for Get-ADUserLockoutReason.Parameter StartTime" executed="True" result="Success" success="True" time="0.873" asserts="0" description="Test help for Get-ADUserLockoutReason.Parameter StartTime">
+                <results>
+                  <test-case description="Has description" name="Test help for Get-ADUserLockoutReason.Parameter StartTime.Has description" time="0.0273" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-ADUserLockoutReason.Parameter StartTime.Has correct [mandatory] value" time="0.006" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-ADUserLockoutReason.Parameter StartTime.Has correct parameter type" time="0.0059" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-case description="Help is not auto-generated" name="Test help for Get-ADUserLockoutReason.Help is not auto-generated" time="0.1523" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Get-ADUserLockoutReason.Has description" time="0.0196" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Get-ADUserLockoutReason.Has example code" time="0.0131" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Get-ADUserLockoutReason.Has example help" time="0.0115" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Test help for Get-ADUserLockouts" executed="True" result="Success" success="True" time="2.1259" asserts="0" description="Test help for Get-ADUserLockouts">
+            <results>
+              <test-suite type="TestFixture" name="Test help for Get-ADUserLockouts.Parameter EndTime" executed="True" result="Success" success="True" time="0.2222" asserts="0" description="Test help for Get-ADUserLockouts.Parameter EndTime">
+                <results>
+                  <test-case description="Has description" name="Test help for Get-ADUserLockouts.Parameter EndTime.Has description" time="0.0059" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-ADUserLockouts.Parameter EndTime.Has correct [mandatory] value" time="0.0046" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-ADUserLockouts.Parameter EndTime.Has correct parameter type" time="0.0043" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Test help for Get-ADUserLockouts.Parameter FailureReason" executed="True" result="Success" success="True" time="0.4137" asserts="0" description="Test help for Get-ADUserLockouts.Parameter FailureReason">
+                <results>
+                  <test-case description="Has description" name="Test help for Get-ADUserLockouts.Parameter FailureReason.Has description" time="0.0053" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-ADUserLockouts.Parameter FailureReason.Has correct [mandatory] value" time="0.0056" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-ADUserLockouts.Parameter FailureReason.Has correct parameter type" time="0.0102" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Test help for Get-ADUserLockouts.Parameter Identity" executed="True" result="Success" success="True" time="0.5903" asserts="0" description="Test help for Get-ADUserLockouts.Parameter Identity">
+                <results>
+                  <test-case description="Has description" name="Test help for Get-ADUserLockouts.Parameter Identity.Has description" time="0.0077" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-ADUserLockouts.Parameter Identity.Has correct [mandatory] value" time="0.0046" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-ADUserLockouts.Parameter Identity.Has correct parameter type" time="0.0047" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Test help for Get-ADUserLockouts.Parameter StartTime" executed="True" result="Success" success="True" time="0.7634" asserts="0" description="Test help for Get-ADUserLockouts.Parameter StartTime">
+                <results>
+                  <test-case description="Has description" name="Test help for Get-ADUserLockouts.Parameter StartTime.Has description" time="0.0058" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct [mandatory] value" name="Test help for Get-ADUserLockouts.Parameter StartTime.Has correct [mandatory] value" time="0.0044" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has correct parameter type" name="Test help for Get-ADUserLockouts.Parameter StartTime.Has correct parameter type" time="0.0042" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-case description="Help is not auto-generated" name="Test help for Get-ADUserLockouts.Help is not auto-generated" time="0.0057" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has description" name="Test help for Get-ADUserLockouts.Has description" time="0.0042" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example code" name="Test help for Get-ADUserLockouts.Has example code" time="0.005" asserts="0" success="True" result="Success" executed="True" />
+              <test-case description="Has example help" name="Test help for Get-ADUserLockouts.Has example help" time="0.0079" asserts="0" success="True" result="Success" executed="True" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\01-DEV\POSHTools\tests\Manifest.tests.ps1" executed="True" result="Ignored" success="True" time="1.7041" asserts="0" description="C:\01-DEV\POSHTools\tests\Manifest.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Module manifest" executed="True" result="Success" success="True" time="0.5067" asserts="0" description="Module manifest">
+            <results>
+              <test-suite type="TestFixture" name="Module manifest.Validation" executed="True" result="Success" success="True" time="0.335" asserts="0" description="Module manifest.Validation">
+                <results>
+                  <test-case description="Has a valid manifest" name="Module manifest.Validation.Has a valid manifest" time="0.0139" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid name in the manifest" name="Module manifest.Validation.Has a valid name in the manifest" time="0.0095" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid root module" name="Module manifest.Validation.Has a valid root module" time="0.0101" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the manifest" name="Module manifest.Validation.Has a valid version in the manifest" time="0.0212" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid description" name="Module manifest.Validation.Has a valid description" time="0.0141" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid author" name="Module manifest.Validation.Has a valid author" time="0.0116" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid guid" name="Module manifest.Validation.Has a valid guid" time="0.0317" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid copyright" name="Module manifest.Validation.Has a valid copyright" time="0.0264" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Has a valid version in the changelog" name="Module manifest.Validation.Has a valid version in the changelog" time="0.0097" asserts="0" success="True" result="Success" executed="True" />
+                  <test-case description="Changelog and manifest versions are the same" name="Module manifest.Validation.Changelog and manifest versions are the same" time="0.0112" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+          <test-suite type="TestFixture" name="Git tagging" executed="True" result="Ignored" success="True" time="0.6829" asserts="0" description="Git tagging">
+            <results>
+              <test-case description="Is tagged with a valid version" name="Git tagging.Is tagged with a valid version" time="0.0088" asserts="0" success="False" result="Ignored" executed="False" />
+              <test-case description="Matches manifest version" name="Git tagging.Matches manifest version" time="0.0033" asserts="0" success="False" result="Ignored" executed="False" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="TestFixture" name="C:\01-DEV\POSHTools\tests\Meta.tests.ps1" executed="True" result="Success" success="True" time="0.792" asserts="0" description="C:\01-DEV\POSHTools\tests\Meta.tests.ps1">
+        <results>
+          <test-suite type="TestFixture" name="Text files formatting" executed="True" result="Success" success="True" time="0.495" asserts="0" description="Text files formatting">
+            <results>
+              <test-suite type="TestFixture" name="Text files formatting.File encoding" executed="True" result="Success" success="True" time="0.1783" asserts="0" description="Text files formatting.File encoding">
+                <results>
+                  <test-case description="No text file uses Unicode/UTF-16 encoding" name="Text files formatting.File encoding.No text file uses Unicode/UTF-16 encoding" time="0.0087" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+              <test-suite type="TestFixture" name="Text files formatting.Indentations" executed="True" result="Success" success="True" time="0.3422" asserts="0" description="Text files formatting.Indentations">
+                <results>
+                  <test-case description="No text file use tabs for indentations" name="Text files formatting.Indentations.No text file use tabs for indentations" time="0.0079" asserts="0" success="True" result="Success" executed="True" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
